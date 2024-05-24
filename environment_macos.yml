@@ -1,0 +1,21 @@
+name: aurora-nerf
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - wandb
+  - ipywidgets
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - scikit-learn
+  - plotly
+  - scipy
+  - sunpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - lightning
